@@ -1,0 +1,212 @@
+body,html{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	width: 80%;
+	margin: 0 auto 20px;
+	padding-top: 30px;
+	height: auto;
+	overflow: hidden;
+	list-style-type: none;
+}
+.nav li{
+	padding: 0 10px;
+	text-align: center;
+	width: 33%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.5em;
+	float: left;
+	cursor: pointer;
+	
+	color: #fff;
+}
+.nav li span{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 3px;
+}
+.nav li span.active,.nav li span:hover{
+	background: #F89406;
+}
+.button{
+	width: 200%;
+	padding: 5px 10px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 3px;
+	margin: 0  auto 20px;
+	width: 80%;
+}
+.button button{
+	width: 60px;
+	height: 30px;
+	font-size: 1.2em;
+	padding: 5px 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 3px;
+	background: #50A3A2;
+	color: #fff;
+}
+
+.main{
+	width: 80%;
+	margin: 0 auto 20px;
+	height: auto;
+	overflow-x: hidden;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.2);
+}
+.main table{
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+.main table th,.main table td{
+	padding: 5px;
+}
+.main table tr td:last-child{
+	min-width: 100px;
+}
+.main table td button{
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	background: #50A3A2;
+	color: #fff;
+}
+.main table tr:hover td,.main table tr.active td{
+	background: #F89406;
+}
+.main .selectInn{
+	width: 100%;
+	height: 30px;
+}
+.main .selectInn select{
+	height: 100%;
+	width: 28%;
+	margin: 0 2.6%;
+}
+.tip, .popup{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.popup .zpopup i.close,
+.tip .ztip i.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-style: normal;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.zpopup,.ztip{
+    width: 400px;
+    height: 360px;
+    margin-left: -200px;
+    margin-top: -180px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 30;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.zpopup p,.ztip p{
+    margin: 15px 0;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1em;
+}
+.zpopup .zinput{
+    padding: 0 0 10px;
+    height: auto;
+    overflow: hidden;
+}
+.ztip .zinput .inn,.zpopup .zinput .inn{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.zpopup .zinput .inn:last-child{
+    margin-bottom: 0;
+}
+.ztip .zinput .inn i,.zpopup .zinput .inn i{
+    line-height: 30px;
+    float: left;
+    width: 120px;
+    text-align: right;
+    font-size: 0.9em;
+    font-style: normal;
+    margin-right: 30px;
+    color: #000;
+}
+.ztip .zinput .inn .right,.zpopup .zinput .inn .right{
+    float: left;
+    padding: 3px 0;
+}
+.ztip .zinput .inn .right input,.zpopup .zinput .inn .right input, .zpopup .zinput .inn .right select{
+    height: 24px;
+    width: 180px;
+    outline: none !important;
+    padding-left: 3px;
+}
+.zpopup .zinput .inn .right input[name="enable"]{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+.zpopup .zbutton,.ztip .zbutton{
+    margin-top: 5px;
+}
+.zpopup .zbutton button,.ztip .zbutton button{
+    letter-spacing: 3px;
+    padding: 2px 2px 2px 5px;
+    margin-right: 10px;
+}
+.zpopup .zbutton button:last-child,.ztip .zbutton button:last-child{
+    margin-right: 0;
+}
+#ztip .ztip{
+    width: 320px;
+    height: 180px;
+    margin-left: -160px;
+    margin-top: -75px;
+}
+#ztip .zinput .inn i,.zpopup .zinput .inn i{
+    width: 100px;
+}
+#ztip .zinput .inn .right input{
+    width: 150px;
+}
+
+.ztip{
+    width: 320px;
+    height: 100px;
+    margin-left: -160px;
+    margin-top: -50px;
+}
+
+.ztip p span{
+    display: inline-block;
+    margin: 0 4px;
+}
+.main .showTest{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+}

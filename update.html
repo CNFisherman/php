@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>电路试题库管理系统</title>
+    </head>
+    <body style="background-color:#537ba7">
+        <h1><a href="homepage.html" style="text-align:center;">
+        <input type="button"value="主界面"></a>添加
+        <a href="add/choice.html" style="text-align:center;">
+            <input type="button"value="选择题"></a>
+        <a href="add/fill.html" style="text-align:center;">
+            <input type="button"value="填空题"></a>
+        <a href="add/judge.html" style="text-align:center;">
+             <input type="button"value="判断题"></a>
+        <a href="add/design.html" style="text-align:center;">
+            <input type="button"value="设计题"></a>
+        <a href="add/cal.html" style="text-align:center;">
+            <input type="button"value="计算题"></a>
+        </h1>
+            <form action="./select/choiceshow.php" method="POST">
+                <div>
+                     <label for="search" >选择题搜索</label>
+                     <input name="info" id="search" value=""><button>立即搜索</button>
+                </div>
+
+            </form>
+            <form action="./select/fillshow.php" method="POST">
+                <div>
+                     <label for="search" >填空题搜索</label>
+                     <input name="info" id="search" value=""><button>立即搜索</button>
+                </div>
+
+            </form>
+            <form action="./select/judgeshow.php" method="POST">
+                <div>
+                     <label for="search" >判断题搜索</label>
+                     <input name="info" id="search" value=""><button>立即搜索</button>
+                </div>
+
+            </form>
+            <form action="./select/designshow.php" method="POST">
+                <div>
+                     <label for="search" >设计题搜索</label>
+                     <input name="info" id="search" value=""><button>立即搜索</button>
+                </div>
+
+            </form>
+            <form action="./select/calshow.php" method="POST">
+                <div>
+                     <label for="search" >计算题搜索</label>
+                     <input name="info" id="search" value=""><button>立即搜索</button>
+                </div>
+
+            </form>
+    </body>
+</html>
